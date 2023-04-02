@@ -19,7 +19,7 @@ app.use(express.static("public"));
 
 app.set("view engine", "ejs");
 
-mongoose.connect("mongodb://127.0.0.1:27017/todolistDB", {
+mongoose.connect("mongodb+srv://admin-ajay:ajay1214@ajay.eif5asu.mongodb.net/todolistDB", {
   useNewUrlParser: true,
 });
 
